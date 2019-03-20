@@ -1,12 +1,16 @@
 .App {
   text-align: center;
-  margin: 0 0.5rem;
+  margin: 0 1.5rem;
+  background-color: hsl(0,0%,90%);
+  width: 100%;
+  height: 100%;
 }
 
 .App-bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 8.0rem;
 }
 
 .App-logo {
@@ -40,6 +44,16 @@
 }
 
 .App-top {
-  background-color: darkblue;
+  background-color:#1F2535;
   text-align: center;
+  color: whitesmoke;
+  text-align: justify;
+  padding: 2.5rem;
+}
+
+.App-top-container {
+  width: 20%
+}
+.App-top h1 {
+  font-size: 2.5rem;
 }
