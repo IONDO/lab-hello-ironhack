@@ -22,9 +22,12 @@ class App extends Component {
     return (
       <div className="App">
         <section className="App-top">
+          <div className="App-header">
+            <img src={logo} alt=''></img>
+          </div>
           <div className="App-top-container">
-          <TopSection title='Say hello to ReactJS' 
-          description='You will learn something' btn='Awesome!'/>
+            <TopSection title='Say hello to ReactJS' 
+            description='You will learn something' btn='Awesome!'/>
           </div>
         </section>
         <section className="App-bottom">
